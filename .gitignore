@@ -11,6 +11,8 @@
 # production
 /build
 
+*.module.scss
+*.module.css.map
 /buyBusyPallete.pdf
 
 # misc

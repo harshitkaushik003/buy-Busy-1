@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+.navLink {
+  text-decoration: none;
+}
+
+.Navbar {
+  width: 100vw;
+  height: 10vh;
+  background-color: #1C224B;
+  display: flex;
+  justify-content: space-between;
+}
+.Navbar .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.Navbar .logo img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+.Navbar .logo .siteName {
+  font-family: "Kanit", sans-serif;
+  font-size: 30px;
+  color: white;
+  position: relative;
+}
+.Navbar .navContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.Navbar .navContent .contentText {
+  margin-right: 30px;
+  display: flex;
+  cursor: pointer;
+}
+.Navbar .navContent .contentText img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.Navbar .navContent .contentText span {
+  font-size: 20px;
+  font-family: "Kanit", sans-serif;
+  color: white;
+}/*# sourceMappingURL=Navbar.module.css.map */
