@@ -22,7 +22,7 @@ const Navbar = () => {
             </NavLink>
             <NavLink to='/cart' className={styles.navLink}>
                 <div className={styles.contentText}>
-                    <img src="https://cdn-icons-png.flaticon.com/128/10703/10703059.png" alt="" />
+                    <img src="https://cdn-icons-png.flaticon.com/128/2038/2038854.png" alt="" />
                     <span>Cart</span>
                 </div>
             </NavLink>

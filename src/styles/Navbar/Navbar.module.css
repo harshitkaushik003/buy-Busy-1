@@ -7,6 +7,7 @@
   width: 100vw;
   height: 10vh;
   background-color: #1C224B;
+  background-color: #03DCA5;
   display: flex;
   justify-content: space-between;
 }
@@ -24,7 +25,7 @@
 .Navbar .logo .siteName {
   font-family: "Kanit", sans-serif;
   font-size: 30px;
-  color: white;
+  color: black;
   position: relative;
 }
 .Navbar .navContent {
@@ -36,6 +37,7 @@
 .Navbar .navContent .contentText {
   margin-right: 30px;
   display: flex;
+  align-items: center;
   cursor: pointer;
 }
 .Navbar .navContent .contentText img {
@@ -46,5 +48,5 @@
 .Navbar .navContent .contentText span {
   font-size: 20px;
   font-family: "Kanit", sans-serif;
-  color: white;
+  color: black;
 }/*# sourceMappingURL=Navbar.module.css.map */
