@@ -25,7 +25,7 @@ const Card = ({book}) => {
                 </div>
                 
             </div>
-            <Button color={"#03DCA5"}/>
+            <Button color={"#03DCA5"} text="Add to Cart"/>
         </div>
         
         </>

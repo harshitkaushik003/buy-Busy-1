@@ -11,12 +11,12 @@ const Btn = styled.button`
     cursor:pointer;
 `;
 
-const Button = ({ color }) => {
+const Button = ({ color, text }) => {
     return (
         <>
             <Btn color={color}>
                 <span>
-                    Add to Cart
+                    {text}
                 </span>
             </Btn>
         </>
