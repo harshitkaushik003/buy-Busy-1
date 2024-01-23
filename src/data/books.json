@@ -1,0 +1,142 @@
+[
+    {
+      "id": 1,
+      "name": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 12.99
+    },
+    {
+      "id": 2,
+      "name": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 14.95
+    },
+    {
+      "id": 3,
+      "name": "1984",
+      "author": "George Orwell",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 9.99
+    },
+    {
+      "id": 4,
+      "name": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 11.75
+    },
+    {
+      "id": 5,
+      "name": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 19.99
+    },
+    {
+      "id": 6,
+      "name": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 16.50
+    },
+    {
+      "id": 7,
+      "name": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 10.25
+    },
+    {
+      "id": 8,
+      "name": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 24.99
+    },
+    {
+      "id": 9,
+      "name": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 13.50
+    },
+    {
+      "id": 10,
+      "name": "The Alchemist",
+      "author": "Paulo Coelho",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 15.75
+    },
+    {
+      "id": 11,
+      "name": "Brave New World",
+      "author": "Aldous Huxley",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 11.99
+    },
+    {
+      "id": 12,
+      "name": "The Shining",
+      "author": "Stephen King",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 18.25
+    },
+    {
+      "id": 13,
+      "name": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 14.99
+    },
+    {
+      "id": 14,
+      "name": "The Road",
+      "author": "Cormac McCarthy",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 12.50
+    },
+    {
+      "id": 15,
+      "name": "A Song of Ice and Fire",
+      "author": "George R.R. Martin",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 29.99
+    },
+    {
+      "id": 16,
+      "name": "The Chronicles of Narnia",
+      "author": "C.S. Lewis",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 17.50
+    },
+    {
+      "id": 17,
+      "name": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 16.99
+    },
+    {
+      "id": 18,
+      "name": "The Fault in Our Stars",
+      "author": "John Green",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 13.75
+    },
+    {
+      "id": 19,
+      "name": "Moby-Dick",
+      "author": "Herman Melville",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 20.50
+    },
+    {
+      "id": 20,
+      "name": "The Road Less Traveled",
+      "author": "M. Scott Peck",
+      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "price": 15.99
+    }
+]  
