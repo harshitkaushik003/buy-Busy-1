@@ -1,8 +1,12 @@
 import React from 'react'
 import styles from '../styles/Card/Card.module.css';
 import Button from './Button';
+import { useProductValue } from '../ProductContext';
 const Card = ({book}) => {
-    
+    const {handleAddToCart} = useProductValue();
+    function addtoCart(){
+        handleAddToCart(book);
+    }
     return (
         <>
         <div className={styles.card}>
@@ -25,7 +29,7 @@ const Card = ({book}) => {
                 </div>
                 
             </div>
-            <Button color={"#03DCA5"} textColor={"black"} text="Add to Cart"/>
+            <Button onClick={addtoCart} color={"#03DCA5"} textColor={"black"} text="Add to Cart"/>
         </div>
         
         </>

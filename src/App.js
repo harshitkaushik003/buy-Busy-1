@@ -7,6 +7,7 @@ import Cart from './Pages/Cart';
 import SignUp from './Pages/SignUp';
 import CustomAuthContext from './AuthenticationContext';
 import Profile from './Pages/Profile';
+import CustomProductContext from './ProductContext';
 function App() {
 
 
@@ -41,7 +42,9 @@ function App() {
   return (
     <>
     <CustomAuthContext>
-      <RouterProvider router={router}/>
+      <CustomProductContext>
+        <RouterProvider router={router}/>
+      </CustomProductContext>
     </CustomAuthContext>
     </> 
   );
