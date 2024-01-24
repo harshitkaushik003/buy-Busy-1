@@ -1,8 +1,11 @@
 import React from 'react'
 import styles from '../styles/Navbar/Navbar.module.css'
 import { Outlet, NavLink } from 'react-router-dom'
+import { useAuthValue } from '../AuthenticationContext';
 
 const Navbar = () => {
+    const {currentUser} = useAuthValue();
+
   return (
     <>
     <div className={styles.Navbar}>
@@ -26,10 +29,10 @@ const Navbar = () => {
                     <span>Cart</span>
                 </div>
             </NavLink>
-            <NavLink to='/sign-in' className={styles.navLink}>
+            <NavLink to={currentUser ? `${currentUser.uid}/profile` :'/sign-in'} className={styles.navLink}>
                 <div className={styles.contentText}>
                     <img src="https://cdn-icons-png.flaticon.com/128/10809/10809648.png" alt="" />
-                    <span>login</span>
+                    <span>{currentUser ? currentUser.email : "login"}</span>
                 </div>     
             </NavLink>
 

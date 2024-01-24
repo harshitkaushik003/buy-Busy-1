@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap");
+.profileContainer {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+.profileContainer .Content {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+}
+.profileContainer .Content .field {
+  width: 40%;
+  height: 100%;
+  font-size: 20px;
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+}
+.profileContainer .Content .value {
+  width: 60%;
+  height: 100%;
+  font-size: 20px;
+  font-family: "Cinzel", serif;
+}/*# sourceMappingURL=Profile.module.css.map */

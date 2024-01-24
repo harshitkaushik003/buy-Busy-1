@@ -12,10 +12,10 @@ const Btn = styled.button`
     margin-bottom:10px;
 `;
 
-const Button = ({ color,textColor, text }) => {
+const Button = ({ color,textColor, text, onClick }) => {
     return (
         <>
-            <Btn color={color} textColor={textColor}>
+            <Btn color={color} textColor={textColor} onClick={onClick}>
                 <span>
                     {text}
                 </span>

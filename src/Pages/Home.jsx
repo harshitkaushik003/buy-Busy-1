@@ -3,7 +3,9 @@ import styles from '../styles/Home/Home.module.css'
 import myImage from '../images/header.jpeg';
 import Card from '../components/Card';
 import data from '../data/books.json';
+
 const Home = () => {
+
   return (
     <div className={styles.home}>
         <div className={styles.header}>

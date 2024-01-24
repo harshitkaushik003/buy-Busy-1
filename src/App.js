@@ -5,7 +5,10 @@ import Orders from './Pages/Orders';
 import SignIn from './Pages/SignIn';
 import Cart from './Pages/Cart';
 import SignUp from './Pages/SignUp';
+import CustomAuthContext from './AuthenticationContext';
+import Profile from './Pages/Profile';
 function App() {
+
 
   const router = createBrowserRouter([
     {path: '/', element: <Navbar/>, children:[
@@ -26,14 +29,20 @@ function App() {
         element:<SignIn/>
       },
       {
-        path:'/cart',
+        path:'cart',
         element:<Cart/>
+      },
+      {
+        path: ':id/profile',
+        element:<Profile/>
       }
     ]}
   ])
   return (
     <>
+    <CustomAuthContext>
       <RouterProvider router={router}/>
+    </CustomAuthContext>
     </> 
   );
 }
