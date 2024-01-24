@@ -4,17 +4,18 @@ const Btn = styled.button`
     min-height: 40px;
     width: 100%;
     background-color: ${props => props.color};
-    color: white;
-    border-radius: 15px;
+    color:${props => props.textColor};
+    border-radius: 10px;
     border:0;
     text-align: center;
     cursor:pointer;
+    margin-bottom:10px;
 `;
 
-const Button = ({ color, text }) => {
+const Button = ({ color,textColor, text }) => {
     return (
         <>
-            <Btn color={color}>
+            <Btn color={color} textColor={textColor}>
                 <span>
                     {text}
                 </span>
