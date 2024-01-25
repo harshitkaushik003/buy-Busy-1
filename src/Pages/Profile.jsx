@@ -56,7 +56,10 @@ function Profile(){
                     {userData.email}
                 </span>
             </div>
-            <Button color={'#03DCA5'} textColor={'black'} onClick={signOut} text={"Sign Out"}/>
+            <div className={styles.btn}>
+                <Button color={'#03DCA5'} textColor={'black'} onClick={signOut} text={"Sign Out"}/>
+            </div>
+           
         </div>
         </>
     )

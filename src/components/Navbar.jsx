@@ -23,7 +23,7 @@ const Navbar = () => {
                     <span>Orders</span>
                 </div>
             </NavLink>
-            <NavLink to='/cart' className={styles.navLink}>
+            <NavLink to={currentUser ? "/cart" : "/sign-in"} className={styles.navLink}>
                 <div className={styles.contentText}>
                     <img src="https://cdn-icons-png.flaticon.com/128/2038/2038854.png" alt="" />
                     <span>Cart</span>
@@ -32,7 +32,7 @@ const Navbar = () => {
             <NavLink to={currentUser ? `${currentUser.uid}/profile` :'/sign-in'} className={styles.navLink}>
                 <div className={styles.contentText}>
                     <img src="https://cdn-icons-png.flaticon.com/128/10809/10809648.png" alt="" />
-                    <span>{currentUser ? currentUser.email : "login"}</span>
+                    <span>{currentUser ? "Profile" : "login"}</span>
                 </div>     
             </NavLink>
 

@@ -1,8 +1,8 @@
 import React from 'react'
-
+import styles from '../styles/Order/Order.module.css';
 const Orders = () => {
   return (
-    <div>
+    <div className={styles.orders}>
       orders
     </div>
   )

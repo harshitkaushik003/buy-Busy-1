@@ -1,0 +1,19 @@
+.cartMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.cartMain .cartContent {
+  display: flex;
+  justify-content: space-around;
+}
+.cartMain .cartContent span {
+  font-size: 20px;
+  margin: 30px;
+}
+.cartMain .cartContent .btn {
+  width: 300px;
+  height: 70px;
+  margin-top: 30px;
+}/*# sourceMappingURL=Cart.module.css.map */

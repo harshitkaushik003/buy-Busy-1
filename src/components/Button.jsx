@@ -12,10 +12,18 @@ const Btn = styled.button`
     margin-bottom:10px;
 `;
 
-const Button = ({ color,textColor, text, onClick }) => {
+const Button = ({ color,textColor, text, onClick, arg }) => {
+
+    function handleButtonClick(){
+        if(arg !== undefined){
+            onClick(arg);
+        }else{
+            onClick();
+        }
+    }
     return (
         <>
-            <Btn color={color} textColor={textColor} onClick={onClick}>
+            <Btn color={color} textColor={textColor} onClick={handleButtonClick}>
                 <span>
                     {text}
                 </span>
