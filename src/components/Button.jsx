@@ -15,6 +15,9 @@ const Btn = styled.button`
 const Button = ({ color,textColor, text, onClick, arg }) => {
 
     function handleButtonClick(){
+        if(onClick === undefined){
+            return;
+        }
         if(arg !== undefined){
             onClick(arg);
         }else{

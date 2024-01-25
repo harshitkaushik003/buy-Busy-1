@@ -1,6 +1,5 @@
-import { doc, getDoc, onSnapshot, updateDoc } from "firebase/firestore";
+import { doc, onSnapshot, updateDoc } from "firebase/firestore";
 import { createContext, useContext, useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
 import { db } from "./firebaseInit";
 import { useAuthValue } from "./AuthenticationContext";
 
@@ -12,7 +11,6 @@ function useProductValue(){
 }
 
 function CustomProductContext({children}){
-    const {id} = useParams();
     const {currentUser} = useAuthValue();
     const [cart, setCart] = useState([]);
     const [order, setOrder] = useState([]);

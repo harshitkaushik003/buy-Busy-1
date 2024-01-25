@@ -17,7 +17,7 @@ const Navbar = () => {
         </NavLink>
 
         <div className={styles.navContent}>
-            <NavLink to='/orders' className={styles.navLink}>
+            <NavLink to={currentUser ? '/orders' : '/sign-in'} className={styles.navLink}>
                 <div className={styles.contentText}>
                     <img src="https://cdn-icons-png.flaticon.com/128/2728/2728447.png" alt="" />
                     <span>Orders</span>

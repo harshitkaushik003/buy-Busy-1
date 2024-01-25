@@ -19,7 +19,7 @@ const Orders = () => {
       </div>
       <div className={styles.totalPrice}>
         <span className={styles.heading}>Total Price:</span>
-        <span className={styles.price}>${totalPrice}</span>
+        <span className={styles.price}>${totalPrice.toFixed(2)}</span>
       </div>
     </div>
   )
