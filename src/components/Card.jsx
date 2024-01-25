@@ -2,7 +2,9 @@ import React from 'react'
 import styles from '../styles/Card/Card.module.css';
 import Button from './Button';
 import { useProductValue } from '../ProductContext';
+import { useAuthValue } from '../AuthenticationContext';
 const Card = ({book}) => {
+    const {currentUser} = useAuthValue();
     const {handleAddToCart} = useProductValue();
     function addtoCart(){
         handleAddToCart(book);
@@ -29,7 +31,8 @@ const Card = ({book}) => {
                 </div>
                 
             </div>
-            <Button onClick={addtoCart} color={"#03DCA5"} textColor={"black"} text="Add to Cart"/>
+            {currentUser ? <Button onClick={addtoCart} color={"#03DCA5"} textColor={"black"} text="Add to Cart"/> : ""}
+            
         </div>
         
         </>

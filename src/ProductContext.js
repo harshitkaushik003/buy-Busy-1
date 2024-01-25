@@ -2,6 +2,7 @@ import { doc, onSnapshot, updateDoc } from "firebase/firestore";
 import { createContext, useContext, useEffect, useState } from "react";
 import { db } from "./firebaseInit";
 import { useAuthValue } from "./AuthenticationContext";
+import { toast } from "react-toastify";
 
 const productContext = createContext();
 
@@ -43,9 +44,11 @@ function CustomProductContext({children}){
                     cart: [bookObj, ...currentCart]
                 })
             }
+            toast.success("Added to Cart");
 
         }catch(error){
             console.log("Error in adding to cart -> " + error);
+            toast.error("Some Error Occurred");
         }
 
     }
@@ -66,8 +69,11 @@ function CustomProductContext({children}){
             await updateDoc(docRef, {
                 cart: currentCart
             });
+
+            toast.success("Removed from Cart");
         }catch(error){
             console.log("Error while removing from cart -> " + error);
+            toast.error("Some Error Occurred");
         }
     }
 
@@ -81,8 +87,11 @@ function CustomProductContext({children}){
                 order: currentOrder
             })
 
+            toast.success("Placed All Orders");
+
         }catch(err){
             console.log("Error in handle order all -> "+err);
+            toast.error("Some Error Occurred");
         }
     }
 
@@ -98,8 +107,10 @@ function CustomProductContext({children}){
                 cart: currentCart,
                 order: currentOrder
             })
+            toast.success("Order Placed");
         } catch (error) {
             console.log("Error in handle Order -> "+error);
+            toast.error("Some Error Occurred");
         }
     }
 

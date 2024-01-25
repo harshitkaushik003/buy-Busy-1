@@ -13,6 +13,7 @@ const Orders = () => {
   return (
     <div className={styles.orders}>
       <div className={styles.orderList}>
+        {order.length ? "" : "No orders currently"}
         {order.map((element)=>(
           <OrderCard item={element}/>
         ))}
