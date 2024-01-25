@@ -14,6 +14,7 @@ const SignIn = () => {
 
     const {handleSignUp} = useAuthValue();
     
+    //to handle sign up and erase all the content in the form
     function signup(){
 
         handleSignUp(email, password, name);

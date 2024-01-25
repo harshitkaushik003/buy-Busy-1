@@ -3,6 +3,7 @@ import Button from '../components/Button'
 import styles from '../styles/signIn/SignIn.module.css';
 import {Link,useNavigate} from 'react-router-dom';
 import { useAuthValue } from '../AuthenticationContext';
+
 const SignIn = () => {
     const [email, setEmail] = useState('');
     const [paswd, setPaswd] = useState('');
@@ -11,11 +12,12 @@ const SignIn = () => {
     const passRef = useRef();
 
     const {currentUser, handleSignIn} = useAuthValue();
+    //to navigate to home upon every sign in
     const navigate = useNavigate();
+    //function to sign in using authentication methods in authentication consumer
     function signin(){
         handleSignIn(email, paswd);
         console.log(currentUser);
-        console.log("sign-in clicked");
         navigate('/')
     }
     return (

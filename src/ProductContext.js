@@ -1,21 +1,31 @@
+//firebase
 import { doc, onSnapshot, updateDoc } from "firebase/firestore";
-import { createContext, useContext, useEffect, useState } from "react";
 import { db } from "./firebaseInit";
+
+//for context and state management
+import { createContext, useContext, useEffect, useState } from "react";
+
+//custom authentication consumer
 import { useAuthValue } from "./AuthenticationContext";
+
+//toastify
 import { toast } from "react-toastify";
 
 const productContext = createContext();
 
+//custom consumer
 function useProductValue(){
     const value = useContext(productContext);
     return value;
 }
 
+//custom provider
 function CustomProductContext({children}){
     const {currentUser} = useAuthValue();
     const [cart, setCart] = useState([]);
     const [order, setOrder] = useState([]);
 
+    //getting the product details - cart and orders
     useEffect(()=>{
         if(currentUser){
             const unsub = onSnapshot(doc(db, "buyBusy", currentUser.uid), (doc)=>{
@@ -26,11 +36,14 @@ function CustomProductContext({children}){
         }
     }, [currentUser]);
 
+
+    //add to cart
     async function handleAddToCart(book){
         try{
             const docRef = doc(db, "buyBusy", currentUser.uid);
             const currentCart = cart;
             const index = currentCart.findIndex(item=>item.id === book.id);
+            //if item already exist, just increase the quantity
             if(index !== -1){
                 const newCart = [...currentCart];
                 newCart[index].quantity += 1;
@@ -38,6 +51,7 @@ function CustomProductContext({children}){
                     cart: newCart
                 });
             }else{
+                //create new object with quantity=1 
                 const bookObj = {...book, quantity:1};
                 
                 await updateDoc(docRef,{
@@ -53,16 +67,19 @@ function CustomProductContext({children}){
 
     }
 
+    //removing from cart
     async function handleRemoveFromCart(book){
         try{
             const docRef = doc(db, "buyBusy", currentUser.uid);
             const currentCart = cart;
             console.log(currentCart);
             const index = currentCart.findIndex(item => item.id === book.id);
+            //if item is more than 1, just decrease the quantity
             if(currentCart[index].quantity > 1){
                 currentCart[index].quantity -= 1;
                 
             }else{
+                //delete the object from cart
                 currentCart.splice(index, 1);
             }
 
@@ -77,6 +94,7 @@ function CustomProductContext({children}){
         }
     }
 
+    //order all the items in the cart
     async function handleOrderAll(){
         try{
             const docRef = doc(db, "buyBusy", currentUser.uid);
@@ -95,6 +113,7 @@ function CustomProductContext({children}){
         }
     }
 
+    //order only one item
     async function handleOrder(book){
         try {
             const docRef = doc(db, "buyBusy", currentUser.uid);

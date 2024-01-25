@@ -31,7 +31,8 @@ const Card = ({book}) => {
                 </div>
                 
             </div>
-            {currentUser ? <Button onClick={addtoCart} color={"#03DCA5"} textColor={"black"} text="Add to Cart"/> : ""}
+            {/* display add to cart only if user is logged in  */}
+            {currentUser ? <Button onClick={addtoCart} color={"#03DCA5"} textColor={"black"} text="Add to Cart"/> : "Login to use cart"}
             
         </div>
         

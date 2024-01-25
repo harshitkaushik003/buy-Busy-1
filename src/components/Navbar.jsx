@@ -3,6 +3,8 @@ import styles from '../styles/Navbar/Navbar.module.css'
 import { Outlet, NavLink } from 'react-router-dom'
 import { useAuthValue } from '../AuthenticationContext';
 
+//if the current user does not exist, all links except home here will navigate to the sign in page
+
 const Navbar = () => {
     const {currentUser} = useAuthValue();
 
