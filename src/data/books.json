@@ -3,33 +3,33 @@
       "id": 1,
       "name": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "image": "https://i.pinimg.com/236x/d2/dd/e7/d2dde7970747213d64b8fc70548473fc.jpg",
       "price": 12.99
     },
     {
       "id": 2,
       "name": "To Kill a Mockingbird",
       "author": "Harper Lee",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "image": "https://i.pinimg.com/474x/2e/b0/2d/2eb02dc4133acff9ff4cd6b9160fd484.jpg",
       "price": 14.95
     },
     {
       "id": 3,
       "name": "1984",
       "author": "George Orwell",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "image": "https://i.pinimg.com/236x/04/1c/dd/041cdd9ff00680e9586f645c90f71462.jpg",
       "price": 9.99
     },
     {
       "id": 4,
       "name": "The Catcher in the Rye",
       "author": "J.D. Salinger",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "image": "https://i.pinimg.com/236x/b1/1e/da/b11eda6bcd0eb6dfb7acde327f89e59d.jpg",
       "price": 11.75
     },
     {
       "id": 5,
-      "name": "Harry Potter and the Sorcerer's Stone",
+      "name": "Harry Potter and the Half Blood Prince",
       "author": "J.K. Rowling",
       "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
       "price": 19.99
@@ -38,105 +38,105 @@
       "id": 6,
       "name": "The Hobbit",
       "author": "J.R.R. Tolkien",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "image": "https://i.pinimg.com/236x/84/89/b2/8489b2450bc82b3d90f043268b00ca4e.jpg",
       "price": 16.50
     },
     {
       "id": 7,
-      "name": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "name": "Relativity",
+      "author": "Albert Einstein",
+      "image": "https://i.pinimg.com/236x/8e/4e/6c/8e4e6c25596f669b1232202705e7c9c7.jpg",
       "price": 10.25
     },
     {
       "id": 8,
       "name": "The Lord of the Rings",
       "author": "J.R.R. Tolkien",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "image": "https://i.pinimg.com/236x/88/72/6b/88726bda940807039bc2403f171688f8.jpg",
       "price": 24.99
     },
     {
       "id": 9,
       "name": "The Da Vinci Code",
       "author": "Dan Brown",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "image": "https://i.pinimg.com/236x/3e/15/54/3e1554a9368dd86b4c4374121d31d71d.jpg",
       "price": 13.50
     },
     {
       "id": 10,
       "name": "The Alchemist",
       "author": "Paulo Coelho",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "image": "https://i.pinimg.com/736x/7f/c4/d4/7fc4d484f7a1c1fd12b37080f13a1525.jpg",
       "price": 15.75
     },
     {
       "id": 11,
-      "name": "Brave New World",
-      "author": "Aldous Huxley",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "name": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "image": "https://i.pinimg.com/236x/44/8f/de/448fde1cfac811245ff290398c31586c.jpg",
       "price": 11.99
     },
     {
       "id": 12,
-      "name": "The Shining",
+      "name": "IT",
       "author": "Stephen King",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "image": "https://i.pinimg.com/236x/cf/e0/2f/cfe02f491d79c0c28ac142e303d69323.jpg",
       "price": 18.25
     },
     {
       "id": 13,
-      "name": "The Hunger Games",
-      "author": "Suzanne Collins",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "name": "Quantum Mechanics: The Theoritical Minimum",
+      "author": "Leonard Susskind & Art Friedman",
+      "image": "https://i.pinimg.com/236x/cf/e7/6d/cfe76d5f61c409c66b8a4d23eac7949d.jpg",
       "price": 14.99
     },
     {
       "id": 14,
-      "name": "The Road",
-      "author": "Cormac McCarthy",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "name": "Harry Potter and the Deathly Hallows",
+      "author": "J.K. Rowling",
+      "image": "https://i.pinimg.com/736x/6d/22/4c/6d224cff5b6977467ea08c675d73c3d0.jpg",
       "price": 12.50
     },
     {
       "id": 15,
-      "name": "A Song of Ice and Fire",
-      "author": "George R.R. Martin",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "name": "Jujutsu Kaisen 0",
+      "author": "Gege Akutami",
+      "image": "https://i.pinimg.com/236x/96/18/91/961891967e3d5957e23a53a76b7b543a.jpg",
       "price": 29.99
     },
     {
       "id": 16,
       "name": "The Chronicles of Narnia",
       "author": "C.S. Lewis",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "image": "https://i.pinimg.com/236x/05/97/71/05977126d8af90b1867fde3f04b90c60.jpg",
       "price": 17.50
     },
     {
       "id": 17,
-      "name": "The Girl with the Dragon Tattoo",
-      "author": "Stieg Larsson",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "name": "Harry Potter and the Order of the Phoenix",
+      "author": "J.K. Rowling",
+      "image": "https://i.pinimg.com/236x/1d/5f/e8/1d5fe8891ab4a6ff9584f31b71860951.jpg",
       "price": 16.99
     },
     {
       "id": 18,
       "name": "The Fault in Our Stars",
       "author": "John Green",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "image": "https://i.pinimg.com/236x/a8/b9/7c/a8b97cfd60fd0a9288bdc42615660356.jpg",
       "price": 13.75
     },
     {
       "id": 19,
       "name": "Moby-Dick",
       "author": "Herman Melville",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "image": "https://i.pinimg.com/236x/78/f1/a9/78f1a9d67c5f90ecae81977ae3b0ef4f.jpg",
       "price": 20.50
     },
     {
       "id": 20,
-      "name": "The Road Less Traveled",
-      "author": "M. Scott Peck",
-      "image": "https://i.pinimg.com/736x/83/15/2a/83152ae5270a6fd5eacaf604e6de0586.jpg",
+      "name": "Demon Slayer: Kimetsu no Yaiba 23",
+      "author": "Koyoharu Gotouge",
+      "image": "https://i.pinimg.com/236x/2f/3a/37/2f3a371ab11d0e166c25b7784481865c.jpg",
       "price": 15.99
     }
 ]  

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@500&display=swap");
+.listMain {
+  margin: 30px;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.listMain .listContent {
+  width: 100%;
+  height: 70%;
+  display: flex;
+}
+.listMain .listContent .listLeft {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.listMain .listContent .listLeft span {
+  margin: auto;
+  color: black;
+  font-family: "Spectral", serif;
+}
+.listMain .listContent .listLeft span.heading {
+  font-size: 20px;
+}
+.listMain .listContent .listLeft span.desc {
+  font-size: 16px;
+}
+.listMain .listContent .listRight {
+  width: 50%;
+  height: 100%;
+}
+.listMain .listContent .listRight img {
+  height: 100%;
+  width: 100%;
+}
+.listMain .listFooter {
+  width: 100%;
+  height: 10%;
+  position: relative;
+}
+.listMain .listFooter span {
+  color: black;
+  font-family: "Spectral", serif;
+  font-size: 25px;
+  position: absolute;
+}
+.listMain .listFooter span.footer1 {
+  left: 0;
+}
+.listMain .listFooter span.footer {
+  right: 0;
+}
+.listMain .bottomButtons {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.listMain .bottomButtons .btn {
+  height: 50%;
+  width: 50%;
+  margin-left: 10px;
+}
+.listMain .bottomButtons .btn:nth-child(1) {
+  margin-left: 0;
+}/*# sourceMappingURL=ListCard.module.css.map */

@@ -1,1 +1,25 @@
-/*# sourceMappingURL=Order.module.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@500&display=swap");
+.orders {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+}
+.orders .orderList {
+  width: 60%;
+}
+.orders .totalPrice {
+  width: 40%;
+  display: flex;
+}
+.orders .totalPrice span {
+  margin-top: 30px;
+  font-family: "Spectral", serif;
+}
+.orders .totalPrice span.heading {
+  font-size: 30px;
+}
+.orders .totalPrice span.price {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 40px;
+}/*# sourceMappingURL=Order.module.css.map */

@@ -106,7 +106,7 @@ function CustomProductContext({children}){
     }
 
     return(
-        <productContext.Provider value={{handleAddToCart,handleRemoveFromCart,handleOrder, handleOrderAll, cart}}>
+        <productContext.Provider value={{handleAddToCart,handleRemoveFromCart,handleOrder, handleOrderAll, cart, order}}>
             {children}
         </productContext.Provider>
     )

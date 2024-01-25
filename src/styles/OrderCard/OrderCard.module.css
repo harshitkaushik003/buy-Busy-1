@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@500&display=swap");
+.orderMain {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+}
+.orderMain .contentLeft {
+  width: 50%;
+  height: 100%;
+}
+.orderMain .contentLeft img {
+  height: 100%;
+  width: 100%;
+}
+.orderMain .contentRight {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.orderMain .contentRight span {
+  margin: auto;
+  color: black;
+  font-family: "Spectral", serif;
+}/*# sourceMappingURL=OrderCard.module.css.map */
