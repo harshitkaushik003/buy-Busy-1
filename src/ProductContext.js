@@ -98,8 +98,8 @@ function CustomProductContext({children}){
     async function handleOrderAll(){
         try{
             const docRef = doc(db, "buyBusy", currentUser.uid);
-            let currentOrder = [];
-            currentOrder = cart.map(item=>item)
+            let currentOrder = order;
+            cart.map(item=>currentOrder.push(item));
             await updateDoc(docRef, {
                 cart:[],
                 order: currentOrder
